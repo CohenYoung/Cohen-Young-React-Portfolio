@@ -1,0 +1,15 @@
+.about-wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+
+    .left-column-image {
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+
+    .right-column {
+        text-align:center;
+        padding: 100px;
+    }
+}

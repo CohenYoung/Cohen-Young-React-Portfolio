@@ -1,0 +1,26 @@
+.portfolio-detail-wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+
+    .right-column {
+        background-size:cover;
+        text-align:center;
+
+        .title {
+            color:white;
+        }
+    }
+
+    .left-column {
+        background-color: $offwhite;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+        .description {
+            font-size:1.3em;
+        }
+    }
+
+}
